@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Test: Problem 1 / sin zero",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest --tb=line tests/problem_1/test_sin_zero.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test: Problem 1 / sin recursive",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest --tb=short tests/problem_1/test_sin_recursive.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 9
+    }
+  ]
+}
